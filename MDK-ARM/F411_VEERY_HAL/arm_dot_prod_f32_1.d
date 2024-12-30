@@ -1,0 +1,9 @@
+f411_veery_hal\arm_dot_prod_f32_1.o: DSP\BasicMathFunctions\arm_dot_prod_f32.c
+f411_veery_hal\arm_dot_prod_f32_1.o: ./DSP/inc/arm_math.h
+f411_veery_hal\arm_dot_prod_f32_1.o: ../Drivers/CMSIS/Include/core_cm4.h
+f411_veery_hal\arm_dot_prod_f32_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+f411_veery_hal\arm_dot_prod_f32_1.o: ../Drivers/CMSIS/Include/cmsis_version.h
+f411_veery_hal\arm_dot_prod_f32_1.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+f411_veery_hal\arm_dot_prod_f32_1.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+f411_veery_hal\arm_dot_prod_f32_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+f411_veery_hal\arm_dot_prod_f32_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

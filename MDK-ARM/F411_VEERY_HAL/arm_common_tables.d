@@ -1,0 +1,10 @@
+f411_veery_hal\arm_common_tables.o: DSP\CommonTables\arm_common_tables.c
+f411_veery_hal\arm_common_tables.o: ./DSP/inc/arm_math.h
+f411_veery_hal\arm_common_tables.o: ../Drivers/CMSIS/Include/core_cm4.h
+f411_veery_hal\arm_common_tables.o: D:\Applications\mdk\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+f411_veery_hal\arm_common_tables.o: ../Drivers/CMSIS/Include/cmsis_version.h
+f411_veery_hal\arm_common_tables.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+f411_veery_hal\arm_common_tables.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+f411_veery_hal\arm_common_tables.o: D:\Applications\mdk\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+f411_veery_hal\arm_common_tables.o: D:\Applications\mdk\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+f411_veery_hal\arm_common_tables.o: ./DSP/inc/arm_common_tables.h

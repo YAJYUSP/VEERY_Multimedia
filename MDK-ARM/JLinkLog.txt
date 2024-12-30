@@ -1,0 +1,92 @@
+T520C 000:175.649   SEGGER J-Link V6.90 Log File
+T520C 000:175.739   DLL Compiled: Dec 11 2020 17:08:01
+T520C 000:175.744   Logging started @ 2024-09-15 11:45
+T520C 000:175.748 - 175.750ms
+T520C 000:175.756 JLINK_SetWarnOutHandler(...)
+T520C 000:175.761 - 0.007ms
+T520C 000:175.767 JLINK_OpenEx(...)
+T520C 000:177.446   Firmware: J-Link J-Link V21 compiled Oct 24 2016 00:00:00
+T520C 000:189.870   Hardware: V1.00
+T520C 000:189.900   S/N: 775026796
+T520C 000:189.907   OEM: SEGGER
+T520C 000:189.913   Feature(s): None
+T520C 000:191.584   TELNET listener socket opened on port 19021
+T520C 000:191.666   WEBSRV Starting webserver
+T520C 000:191.767   WEBSRV Webserver running on local port 19080
+T520C 000:191.776 - 16.011ms returns "O.K."
+T520C 000:191.789 JLINK_GetEmuCaps()
+T520C 000:191.795 - 0.008ms returns 0x98EA5A33
+T520C 000:191.805 JLINK_TIF_GetAvailable(...)
+T520C 000:192.200 - 0.404ms
+T520C 000:192.219 JLINK_SetErrorOutHandler(...)
+T520C 000:192.225 - 0.008ms
+T520C 000:192.243 JLINK_ExecCommand("ProjectFile = "D:\VDesktop\Projects\VEERY\F411_VEERY_HAL_GAMING\MDK-ARM\JLinkSettings.ini"", ...). 
+T520C 000:197.475   Ref file found at: D:\Applications\mdk\Keil_v5\ARM\Segger\JLinkDevices.ref
+T520C 000:197.567   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink_V690\JLinkDevices.xml
+T520C 000:198.083   C:\Program Files (x86)\SEGGER\JLink_V690\JLinkDevices.xml evaluated successfully.
+T520C 000:221.749 - 29.518ms returns 0x00
+T520C 000:221.843 JLINK_ExecCommand("Device = STM32F411CEUx", ...). 
+T520C 000:222.105   Device "STM32F411CE" selected.
+T520C 000:222.367 - 0.514ms returns 0x00
+T520C 000:222.382 JLINK_GetHardwareVersion()
+T520C 000:222.386 - 0.006ms returns 10000
+T520C 000:222.392 JLINK_GetDLLVersion()
+T520C 000:222.396 - 0.006ms returns 69000
+T520C 000:222.402 JLINK_GetOEMString(...)
+T520C 000:222.408 JLINK_GetFirmwareString(...)
+T520C 000:222.412 - 0.006ms
+T520C 000:222.420 JLINK_GetDLLVersion()
+T520C 000:222.424 - 0.006ms returns 69000
+T520C 000:222.429 JLINK_GetCompileDateTime()
+T520C 000:222.433 - 0.006ms
+T520C 000:222.440 JLINK_GetFirmwareString(...)
+T520C 000:222.444 - 0.006ms
+T520C 000:222.449 JLINK_GetHardwareVersion()
+T520C 000:222.454 - 0.006ms returns 10000
+T520C 000:222.459 JLINK_GetSN()
+T520C 000:222.464 - 0.006ms returns 775026796
+T520C 000:222.470 JLINK_GetOEMString(...)
+T520C 000:222.479 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T520C 000:224.177 - 1.703ms returns 0x00
+T520C 000:224.187 JLINK_HasError()
+T520C 000:224.197 JLINK_SetSpeed(10000)
+T520C 000:224.801 - 0.607ms
+T520C 000:225.153 JLINK_HasError()
+T520C 000:225.164 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T520C 000:225.170 - 0.008ms returns JLINKARM_RESET_TYPE_NORMAL
+T520C 000:225.177 JLINK_Reset()
+T520C 000:861.250   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T520C 001:018.628   
+  ***** Error: 
+T520C 001:018.664   STM32: Connecting to CPU via connect under reset failed.
+T520C 001:232.467   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T520C 001:390.089   
+  ***** Error: 
+T520C 001:390.120   STM32: Connecting to CPU via connect under reset failed.
+T520C 001:441.692 - 1216.547ms
+T520C 001:442.383 JLINK_GetId()
+T520C 001:548.926   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T520C 001:706.830   
+  ***** Error: 
+T520C 001:706.870   STM32: Connecting to CPU via connect under reset failed.
+T520C 001:922.142   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T520C 002:079.015   
+  ***** Error: 
+T520C 002:079.046   STM32: Connecting to CPU via connect under reset failed.
+T520C 002:130.389 - 688.030ms returns 0x00000000
+T520C 002:130.455 JLINK_GetId()
+T520C 002:236.904   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T520C 002:393.960   
+  ***** Error: 
+T520C 002:393.992   STM32: Connecting to CPU via connect under reset failed.
+T520C 002:609.100   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T520C 002:767.427   
+  ***** Error: 
+T520C 002:767.479   STM32: Connecting to CPU via connect under reset failed.
+T520C 002:819.051 - 688.615ms returns 0x00000000
+T520C 002:823.857 JLINK_GetFirmwareString(...)
+T520C 002:823.872 - 0.016ms
+T520C 003:272.411 JLINK_Close()
+T520C 003:283.526 - 11.130ms
+T520C 003:283.545   
+T520C 003:283.550   Closed
